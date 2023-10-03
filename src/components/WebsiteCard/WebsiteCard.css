@@ -1,0 +1,10 @@
+.website-card {
+    width: fit-content;
+}
+
+.logo-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    padding: 15px;
+}
