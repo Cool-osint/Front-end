@@ -1,0 +1,21 @@
+.cards-container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: space-between;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
